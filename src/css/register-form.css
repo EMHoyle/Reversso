@@ -1,0 +1,160 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.checkbox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.checkbox input {
+  height: 25px !important;
+  margin-left: -160px;
+  margin-right: -150px;
+}
+
+.checkbox p {
+  color: #ec552f !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px !important;
+}
+
+.register-form h2 {
+  color: #ec552f;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+.register-form p {
+  color: #ec552f;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.register-form label {
+  color: #215e99;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.register-form input {
+  border: 1px solid #c7cad9;
+  border-radius: 5px;
+  color: #ec552f;
+  outline: none;
+  padding: 0px 20px;
+  height: 50px;
+  width: 350px;
+}
+
+::placeholder {
+  color: #7f8e9d;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.registerPass {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.registerPass span {
+  color: #7f8e9d;
+  cursor: pointer;
+  padding: 2px 10px;
+  position: absolute;
+  right: 5px;
+  top: 75px;
+}
+
+@media (max-width: 320px) {
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .checkbox {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .checkbox input {
+    height: 25px !important;
+    margin-left: -160px;
+    margin-right: -150px;
+  }
+
+  .checkbox p {
+    color: #ec552f !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px !important;
+    margin-left: 40px;
+  }
+
+  .register-form h2 {
+    color: #ec552f;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: -5px;
+  }
+
+  .register-form p {
+    color: #ec552f;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .register-form label {
+    color: #215e99;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0px;
+  }
+
+  .register-form input {
+    border: 1px solid #c7cad9;
+    border-radius: 5px;
+    color: #ec552f;
+    outline: none;
+    padding: 0px 20px;
+    height: 50px;
+    width: 250px;
+  }
+
+  ::placeholder {
+    color: #7f8e9d;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .registerPass {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .registerPass span {
+    color: #7f8e9d;
+    cursor: pointer;
+    padding: 2px 10px;
+    position: absolute;
+    right: 5px;
+    top: 75px;
+  }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <title>Login Reversso</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div id="alertRegistert" class="alert hidden">
+          Felicidades te haz registrado exitosamente.
+        </div>
+
+        <div class="signIn">
+          <div class="imgBox">
+            <img class="imgDsk" src="./src/img/background1.svg" />
+            <img class="imgMob" src="./src/img/mobileBack.svg" />
+            <img class="imgMobLogin" src="./src/img/logo.svg" />
+          </div>
+          <div class="formBox">
+            <form class="login prueba" id="login">
+              <h2>Bienvenido</h2>
+              <p>Inicie sesión ingresando su cuenta aquí</p>
+
+              <h3 class="titleMob">Bienvenido!</h3>
+              <span class="subMob">Conecta con tus seguidores</span>
+
+              <label for="user">Email/Nombre de usuario</label>
+              <input
+                required
+                name="user"
+                class="input"
+                type="text"
+                placeholder="Ingresa email o nombre de usuario"
+              />
+              <div class="password">
+                <label for="password">Contraseña</label>
+                <input
+                  required
+                  name="password"
+                  id="password"
+                  class="input"
+                  type="password"
+                  placeholder="Ingresa contraseña"
+                />
+                <span><i class="fad fa-eye"></i></span>
+              </div>
+
+              <p>
+                <a href="#" class="link-password">¿Olvidaste tu contraseña?</a>
+              </p>
+              <button class="loginBtn" type="submit" id="loginDisplay">
+                Iniciar Sesión
+              </button>
+              <button class="accountBtn" type="submit" id="menuDisplay">
+                Iniciar sesión con otra cuenta
+              </button>
+              <div class="accounts">
+                <p>O inicia sesión en otra cuenta</p>
+                <div class="media">
+                  <img class="icons" src="./src/img/apple.svg" />
+                  <img class="icons" src="./src/img/facebook.svg" />
+                  <img class="icons" src="./src/img/google.svg" />
+                </div>
+              </div>
+              <div class="link-register">
+                <span>
+                  ¿Eres un nuevo usuario?
+                  <a href="./" id="linkRegisterAccount">Crear una cuenta</a>
+                </span>
+              </div>
+              <div class="mobDivider"></div>
+              <br />
+
+              <div class="mobMenu menu-hidden" id="mobMenu">
+                <div class="menuDivider"></div>
+                <div class="mobMenuTitle">
+                  <span style="cursor: pointer" id="closeBtn">X</span>
+                  <span>Selecciona tu cuenta</span>
+                </div>
+                <div class="mobMenuBtn">
+                  <button>
+                    <i class="fab fa-apple"></i> Continua con Apple ID
+                  </button>
+                  <button>
+                    <i class="fab fa-facebook-f"></i> Continua con Facebook
+                  </button>
+                  <button>
+                    <i class="fab fa-google"></i> Continua con Google
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="formRegisterBox">
+            <form class="register-form hidden" id="register">
+              <h2>Registrarse en be positive</h2>
+              <br />
+              <label for="user">Email/Nombre de usuario</label>
+              <input
+                required
+                name="user"
+                class="input"
+                type="text"
+                placeholder="Ingresa email o nombre de usuario"
+              />
+              <label for="user">Nombre</label>
+              <input
+                required
+                name="user"
+                class="input"
+                type="text"
+                placeholder="Ingresa nombre"
+              />
+              <div class="registerPass">
+                <label for="password">Contraseña</label>
+                <input
+                  required
+                  name="password"
+                  id="registerpass"
+                  class="input"
+                  type="password"
+                  placeholder="Ingresa contraseña"
+                />
+                <span><i class="fad fa-eye"></i></span>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <p>Aceptar términos y condiciones</p>
+              </div>
+              <button class="registerBtn" type="submit">
+                Crear una cuenta
+              </button>
+              <button class="accountRegister" type="submit" id="menuDisplay">
+                Iniciar sesión con otra cuenta
+              </button>
+              <div class="accounts">
+                <p>O registrarse con otra cuenta</p>
+                <div class="media">
+                  <img class="icons" src="./src/img/apple.svg" />
+                  <img class="icons" src="./src/img/facebook.svg" />
+                  <img class="icons" src="./src/img/google.svg" />
+                </div>
+              </div>
+              <div class="link-register">
+                <span>
+                  ¿Ya eres usuario?
+                  <a href="./" id="linkLogin">Ingresar</a>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

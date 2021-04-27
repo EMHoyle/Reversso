@@ -1,0 +1,115 @@
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-hidden {
+  display: none;
+}
+
+.login h2 {
+  color: #ec552f;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: -5px;
+}
+
+.login p {
+  color: #ec552f;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.login label {
+  color: #215e99;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.login input {
+  border: 1px solid #c7cad9;
+  border-radius: 5px;
+  color: #ec552f;
+  outline: none;
+  padding: 0px 20px;
+  height: 50px;
+  width: 350px;
+}
+
+::placeholder {
+  color: #7f8e9d;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.password span {
+  color: #7f8e9d;
+  cursor: pointer;
+  padding: 2px 10px;
+  position: absolute;
+  right: 5px;
+  top: 75px;
+}
+
+.subMob {
+  display: none;
+}
+
+.titleMob {
+  color: transparent;
+  font-size: 0px;
+}
+
+@media (max-width: 320px) {
+  .login {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login h2 {
+    display: none;
+  }
+
+  .login p {
+    display: none;
+  }
+
+  .login label {
+    display: none;
+  }
+
+  .login input {
+    display: none;
+  }
+
+  .link-password {
+    display: none;
+  }
+
+  .password {
+    display: none;
+  }
+
+  .titleMob {
+    color: #ec552f !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    margin-bottom: -5px !important;
+    margin-top: 200px !important;
+  }
+
+  .subMob {
+    color: #ec552f;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}

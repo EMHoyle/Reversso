@@ -1,0 +1,77 @@
+.accountBtn {
+  display: none;
+}
+
+.accountRegister {
+  display: none;
+}
+
+.loginBtn {
+  background-color: #215e99;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px 0px;
+  outline: none;
+  padding: 0px 20px;
+  height: 50px;
+  width: 100%;
+}
+
+.registerBtn {
+  background-color: #215e99;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 20px 0px;
+  outline: none;
+  padding: 0px 20px;
+  height: 50px;
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .accountBtn {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #ec552f;
+    border-radius: 5px;
+    color: #ec552f;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    height: 50px;
+    width: 110%;
+  }
+
+  .accountRegister {
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid #ec552f;
+    border-radius: 5px;
+    color: #ec552f;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    height: 50px;
+    width: 100%;
+  }
+
+  .loginBtn {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 110%;
+  }
+}

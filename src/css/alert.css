@@ -1,0 +1,25 @@
+.alert {
+  align-items: center;
+  display: flex;
+  background-color: #4ca484;
+  color: #fff;
+  height: 30px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2000;
+  animation: fadeOut 8s;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

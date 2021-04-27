@@ -1,0 +1,53 @@
+.link-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-register span {
+  color: #215e99 !important;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.link-register a {
+  color: #ec552f;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link-register a:visited {
+  color: #ec552f;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.link-register a:hover {
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+.mobDivider {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  .link-register span {
+    color: #215e99 !important;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  .mobDivider {
+    background-color: #215e99;
+    border-radius: 5px;
+    display: flex;
+    height: 5px;
+    margin-left: 60px;
+    margin-top: 90px;
+    width: 150px;
+  }
+}
